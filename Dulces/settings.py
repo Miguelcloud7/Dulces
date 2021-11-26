@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mh@zs2o*(*vpbibk9zkq+pef2jl(p7q&#vz&#y#$ut0##lpl1o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['prubasmiguel2.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Dulces.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['Dulces/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
